@@ -1,0 +1,87 @@
+body {
+            background: linear-gradient(180deg, #2A2A2A, #1A1A1A);
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        .perfil {
+            max-width: 900px;           
+            width: 90%;               
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .perfil-carta{
+            background: white;
+            border-radius: 28px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+            text-align: center;
+        }
+
+        .perfil-arriba{
+            background: #f59622;
+            padding: 60px 40px 40px;
+        }
+
+        .nombre-usuario {
+            margin-top: 90px;
+            color: white;
+        }
+
+        .nombre-usuario h2 {
+            margin: 0;
+            font-size: 2.1rem;
+            font-weight: 700;
+        }
+
+        .nombre-usuario p {
+            margin: 10px 0 0;
+            font-size: 1.1rem;
+            opacity: 0.95;
+        }
+
+        .datos-perfil {
+            padding: 100px 60px 60px;
+        }
+
+        .datos-perfil h3 {
+            color: #f59622;
+            font-size: 1.7rem;
+            margin: 0 0 35px 0;
+            text-align: left;
+            padding-bottom: 12px;
+            border-bottom: 4px solid #f59622;
+            display: inline-block;
+        }
+
+        .info-item {
+            background: #f8f9fa;
+            padding: 22px 28px;
+            border-radius: 18px;
+            margin-bottom: 20px;
+            text-align: left;
+            border-left: 6px solid #f59622;
+            font-size: 1.05rem;
+        }
+
+        .info-item strong {
+            display: block;
+            color: #2d3436;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        .info-item span {
+            color: #444;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .perfil-wrapper { width: 95%; padding: 0 10px; }
+            .avatar { width: 130px; height: 130px; }
+            .avatar svg { width: 75px; height: 75px; }
+            .nombre-usuario h2 { font-size: 1.8rem; }
+            .datos-perfil { padding: 90px 30px 50px; }
+        }
